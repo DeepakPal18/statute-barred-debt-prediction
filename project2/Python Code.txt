@@ -106,7 +106,7 @@ for i in df.columns:
 
 
 # sequential vs parallel(wrong method) - two associated feature can drop each other
-# parallel - pick one and check with all rest and drop if vif is high
+# parallel -  check all with all columns together and drop if vif is high (parallel) vs check one vs rest each time (sequential)
       
 
 # VIF sequentially check
